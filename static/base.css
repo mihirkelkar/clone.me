@@ -1,0 +1,90 @@
+video#bg1{
+	position: fixed;
+	right:0;
+	left:0;
+	top:0;
+	bottom:0;
+	height: auto;
+	min-width: 100%;
+	width: auto;
+	z-index:-100;
+
+}
+
+h2#slogan{
+position:relative;	
+font-family: 'Raleway', sans-serif;
+color: #ffffff;
+font-size: 40;
+top: 400px;
+}
+
+h1#title{
+position: relative;
+font-family: 'Lobster', cursive;
+color: #ffffff;
+font-size:90;
+top:400;
+}
+
+button{
+	position: relative;
+	height : 50px;
+	width : 150px;
+	border-radius: 10px;
+	font-family: "Lobster", sans-serif;
+	font-size: 20;
+	opacity: 0.5;  
+	top: 380px;
+}
+
+#slide1{
+	height: 800px;
+	min-width: 100%;
+	width: auto;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top:0px;
+	margin-bottom: 0px;
+}
+
+#slide2{
+	position: absolute;
+	height: 900px;
+	min-width: 100%;
+	background-color: #ffffff;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top:0px;
+	margin-bottom: 0px;
+	left :0px;
+	right : 0px;
+}
+
+#slide2left{
+	position: relative;
+	top: 225px;
+	left: -350px;
+	height: 500px;
+	width: 50%;
+}
+
+h3#device{
+font-family: 'Raleway', sans-serif;
+position: relative;
+font-size: 35;
+left: 30px;
+top: -10px;
+opacity: 0.8;
+}
+
+#slide2right{
+	position: relative;
+	font-family: 'Actor', sans-serif;
+	font-size: 40px;
+	height: 300px;
+	top: -300px;
+	left: 380px;
+	width: 40%;
+	opacity: 0.4;
+}

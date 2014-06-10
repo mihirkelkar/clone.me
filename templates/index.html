@@ -1,0 +1,43 @@
+<html>
+	{% load static %} 
+
+	<head>
+		<title>
+		Create your identity on the web
+		</title>
+		<link rel="stylesheet" href="{% static "base.css"%}"/> <!--CSS--> 
+		<link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>	
+		<link href='http://fonts.googleapis.com/css?family=Actor' rel='stylesheet' type='text/css'>	
+	</head>
+	<body>
+		<div id = "slide1">
+			<video autoplay loop muted id = "bg1">
+				<source src = "{% static 'nyc.mp4'%}" type = "video/mp4"/>
+			</video>
+			<center>
+				<h1 id = "title">Clone</h1>
+				<h2 id = "slogan"> Create your own identity on the Internet</h2>
+				<a href = "/make/"> <button>Continue</button></a>	
+			</center>
+		</div>
+
+		<div id = "slide2">
+			<center>
+				<div id = "slide2left">
+						<center>
+							<img src = "{%static 'devices.jpg'%}"/>
+							<h3 id = "device"> One site to rule them all </h3>
+						</center>
+				</div>	
+				<div id = "slide2right">
+					<center>
+						<h1> . Minimal . </h1>
+						<h1>. Pixel - Perfect .</h1>
+						<h1>. Complete .</h1> 
+					</center>	
+				</div>
+			</center>
+		</div>	
+	</body>
+<html>
