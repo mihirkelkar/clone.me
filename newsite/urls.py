@@ -16,4 +16,5 @@ urlpatterns = patterns('',
     # url(r'^admin/', include(admin.site.urls)),
     url(r'^$', index),
     url(r'^i.m/([\d\w._-]+)/$', user),
+    url(r'^make/$', make),
 )

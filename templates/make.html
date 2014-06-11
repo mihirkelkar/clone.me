@@ -1,0 +1,120 @@
+<html>
+	{% load static %}
+	<head>
+		<title>
+			Create your identity on the Web
+		</title>
+		<link rel="stylesheet" href="{% static "make.css"%}"/>
+		<link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+		<form action = /done/>
+			<div id = "slide1">
+				<center>
+					<h1 style = "font-family: 'Lobster', sans-serif; position: relative; top: 275px; font-size: 75px; opacity : 0.75;">
+						Clone
+					</h1>
+				</center>
+				<center>
+					<input type = "text" id = "textbox" name = "name" placeholder = "Enter full name here">
+				</center>
+				<center>	
+					<input type="text" name = "slogan" id = "sloganbox" placeholder = "Enter  Awesome  slogan here">
+				</center>
+				<center>
+					<div id = "socialbox" style="height: 150px; width: 800px;position:relative; top: 325px;">	
+						<center>
+							<img src = "{% static 'twitter.png' %}" style = "position:relative; left: -300px;top: 20px;"/>
+						</center>
+						<center>	
+						<input type="text" name="twt" placeholder = "@****" id = "twt"/>
+						</center>
+						<center>
+							<img src = "{% static 'lk.png' %}" style = "position:relative; position:relative; top: -105px;"/>
+						</center>
+						<center>	
+						<input type="text" name="lk" placeholder = " Linkedin page" id = "lk"/>
+						</center>
+						<center>
+							<img src = "{% static 'fb.png' %}" style = "position:relative; position:relative; top: -230px; left: 300px;"/>
+						</center>
+						<center>	
+						<input type="text" name="fb" placeholder = "Link your fb page" id = "fb"/>
+						</center>
+					</div>	
+				</center>
+			</div>	
+			<div id ="slide2">
+				<center>
+					<h1 style = "font-family: 'Raleway', sans-serif;; font-size: 75px; opacity : 0.5;"> <b style = "font-size : 90px;">>_ </b>Projects</h1>  
+				</center>
+				<center>
+					<div id = "project1" style="height: 350px; width: 500px;position:relative; left: -400px;">
+						<center>
+							<textarea name="p1" placeholder = "Project Name" id = "p1" style="border-radius : 100%; height: 190px; width: 190px; padding-top:30px; padding-left:20px; padding-right:20px;padding-bottom:30px; outline:none; font-family:'Lobster', sans-serif; font-size: 32px; text-align:center; background-color:#0088cc;
+							font-color:white;"></textarea>
+						</center>
+						<center>
+							<input type="text" id = "tech1" name = "tech1" placeholder = "Technologies used"/>
+						</center>
+						<center>
+							<textarea name = "pd1" style="height:100px; width:80%; font-family:'Raleway', sans-serif; font-size: 20px; border-top-left-radius: 10px; border-top-right-radius: 10px;border-bottom-left-radius: 10px;border-bottom-right-radius: 10px; outline:none;opacity:0.5;"></textarea>
+						</center>
+
+					</div>
+				</center>
+				<center>
+					<div id = "project2" style="height: 350px; width: 500px;position:relative; left: 400px; top: -350px;">
+						<center>
+							<textarea name="p2" placeholder = "Project Name" id = "p1" style="border-radius : 100%; height: 190px; width: 190px; padding-top:30px; padding-left:20px; padding-right:20px;padding-bottom:30px; outline:none; font-family:'Lobster', sans-serif; font-size: 32px; text-align:center; background-color:#979797;
+							font-color:white;"></textarea>
+						</center>
+						<center>
+							<input type="text" id = "tech1" name = "tech2" placeholder = "Technologies used"/>
+						</center>
+						<center>
+							<textarea name = "pd2" style="height:100px; width:80%; font-family:'Raleway', sans-serif; font-size: 20px; border-top-left-radius: 10px; border-top-right-radius: 10px;border-bottom-left-radius: 10px;border-bottom-right-radius: 10px; outline:none;opacity:0.5;"></textarea>
+						</center>
+
+					</div>
+				</center>
+				<center>
+					<div id = "project3" style="height: 350px; width: 500px;position:relative; left: -400px; top : -300px;">
+						<center>
+							<textarea name="p3" placeholder = "Project Name" id = "p1" style="border-radius : 100%; height: 190px; width: 190px; padding-top:30px; padding-left:20px; padding-right:20px;padding-bottom:30px; outline:none; font-family:'Lobster', sans-serif; font-size: 32px; text-align:center; background-color:#eeeeee;
+							font-color:white;"></textarea>
+						</center>
+						<center>
+							<input type="text" id = "tech1" name = "tech3" placeholder = "Technologies used"/>
+						</center>
+						<center>
+							<textarea name = "pd3" style="height:100px; width:80%; font-family:'Raleway', sans-serif; font-size: 20px; border-top-left-radius: 10px; border-top-right-radius: 10px;border-bottom-left-radius: 10px;border-bottom-right-radius: 10px; outline:none;opacity:0.5;"></textarea>
+						</center>
+
+					</div>
+				</center>
+				<center>
+					<div id = "project4" style="height: 350px; width: 500px;position:relative; left: 400px; top: -650px;">
+						<center>
+							<textarea name="p4" placeholder = "Project Name" id = "p1" style="border-radius : 100%; height: 190px; width: 190px; padding-top:30px; padding-left:20px; padding-right:20px;padding-bottom:30px; outline:none; font-family:'Lobster', sans-serif; font-size: 32px; text-align:center; background-color:#666666;
+							font-color:white;"></textarea>
+						</center>
+						<center>
+							<input type="text" id = "tech1" name = "tech4" placeholder = "Technologies used"/>
+						</center>
+						<center>
+							<textarea name = "pd4" style="height:100px; width:80%; font-family:'Raleway', sans-serif; font-size: 20px; border-top-left-radius: 10px; border-top-right-radius: 10px;border-bottom-left-radius: 10px;border-bottom-right-radius: 10px; outline:none;opacity:0.5;"></textarea>
+						</center>
+
+					</div>
+				</center>
+			</div>
+			<div id  = "slide3">
+			<center>
+					Yahoo
+			</center>	
+			</div>
+		</form>
+	</body>
+</html>

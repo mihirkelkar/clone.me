@@ -1,0 +1,142 @@
+#slide1{
+	height: 900px;
+	width: 100%;
+	background-color: #93adc1;
+}
+
+#slide2{
+	height: 1000px;
+	width: 100%;
+	background-color: #ffffff;
+}
+#slide3{
+	height: 800px;
+	width: 100%;
+	background-color: #7ab7e7;
+}
+#textbox{
+	border: none;
+	position:relative;
+	width: 500px;
+	text-align: center;
+	font-family: "Raleway";, sans-serif;
+	font-size: 50px;
+	opacity: 0.4;
+	border-bottom-left-radius: 30;
+	border-bottom-right-radius: 30;
+	border-top-right-radius:30;
+	border-top-left-radius: 30;
+	top: 250px;
+	outline: none;
+
+}
+
+#textbox:focus{
+	border: 1px solid;
+	border-color: red;
+}
+
+#sloganbox{
+	position:relative;
+	top:300px;
+	border: none;
+	width: 700px;
+	text-align: center;
+	font-family: "Raleway", sans-serif;
+	font-size: 40px;
+	outline: none;
+	opacity: 0.4;
+	border-bottom-left-radius: 30;
+	border-bottom-right-radius: 30;
+	border-top-right-radius:30;
+	border-top-left-radius: 30;
+}
+#sloganbox:focus{
+	border: 1px solid;
+	border-color: red;
+}
+
+#twt{
+	position:relative;
+	top:25px;
+	left:-300px;
+	border: none;
+	width: 170px;
+	text-align: center;
+	font-family: "Raleway", sans-serif;
+	font-size: 20px;
+	outline: none;
+	opacity: 0.4;
+	border-bottom-left-radius: 10;
+	border-bottom-right-radius: 10;
+	border-top-right-radius:10;
+	border-top-left-radius: 10;
+}
+#twt:focus{
+	border: 1px solid;
+	border-color: red;
+}
+
+#lk{
+	position:relative;
+	top:-100px;
+	left:0px;
+	border: none;
+	width: 170px;
+	text-align: center;
+	font-family: "Raleway", sans-serif;
+	font-size: 20px;
+	outline: none;
+	opacity: 0.4;
+	border-bottom-left-radius: 10;
+	border-bottom-right-radius: 10;
+	border-top-right-radius:10;
+	border-top-left-radius: 10;
+}
+#lk:focus{
+	border: 1px solid;
+	border-color: red;
+}
+
+
+#fb{
+	position:relative;
+	top:-225px;
+	left:300px;
+	border: none;
+	width: 170px;
+	text-align: center;
+	font-family: "Raleway", sans-serif;
+	font-size: 20px;
+	outline: none;
+	opacity: 0.4;
+	border-bottom-left-radius: 10;
+	border-bottom-right-radius: 10;
+	border-top-right-radius:10;
+	border-top-left-radius: 10;
+}
+#fb:focus{
+	border: 1px solid;
+	border-color: red;
+}
+
+#tech1{
+	position:relative;
+	top:0px;
+	left:0px;
+	border: none;
+	width: 200px;
+	text-align: center;
+	font-family: "Raleway", sans-serif;
+	font-size: 20px;
+	outline: none;
+	opacity: 0.4;
+	border-bottom-left-radius: 10;
+	border-bottom-right-radius: 10;
+	border-top-right-radius:10;
+	border-top-left-radius: 10;
+}
+#tech1:focus{
+	border: 1px solid;
+	border-color: red;
+}
