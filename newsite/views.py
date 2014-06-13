@@ -11,3 +11,10 @@ def user(request, offset):
 
 def make(request):
 	return render_to_response("make.html")
+
+def done(request):
+	if 'name' in request.GET:
+	   name = request.GET['name']
+	else:
+	   name = "not found"   	
+	return HttpResponse("Your name is " + name)	
