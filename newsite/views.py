@@ -13,8 +13,8 @@ def make(request):
 	return render_to_response("make.html")
 
 def done(request):
-	if 'name' in request.GET:
-	   name = request.GET['name']
+	if 'name' in request.POST:
+	   name = request.POST['name']
 	else:
 	   name = "not found"   	
 	return HttpResponse("Your name is " + name)	
